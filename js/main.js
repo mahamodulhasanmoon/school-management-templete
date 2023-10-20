@@ -89,3 +89,35 @@ developerLink.addEventListener("click", function (event) {
    window.location.href = "https://www.facebook.com/nishatshagor76/";
 });
 
+
+// for Blog Tab 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+   // Show the content for the first tab by default
+   const defaultTabNumber = 1;
+   showTab(defaultTabNumber);
+ });
+ 
+ function showTab(tabNumber) {
+   // Hide all tab contents
+   const tabContents = document.querySelectorAll('.tab-contentasdf div');
+   tabContents.forEach(tab => {
+     tab.classList.remove('active');
+   });
+ 
+   // Remove active class from all tabs
+   const tabs = document.querySelectorAll('.tabasdfaase');
+   tabs.forEach(tab => {
+     tab.classList.remove('active');
+   });
+ 
+   // Show the selected tab content and set active class for the tab button
+   const selectedTabContent = document.getElementById(`tabsdfg${tabNumber}`);
+   selectedTabContent.classList.add('active');
+ 
+   const selectedTabButton = document.querySelector(`.tabasdfaase:nth-child(${tabNumber})`);
+   selectedTabButton.classList.add('active');
+ }
+ 
+   

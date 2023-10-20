@@ -4207,6 +4207,219 @@
   
   
   
+  .tabsnnnnnnn {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg,#3F51B5, #000000, #3F51B5);
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .tabasdfaase {
+    flex: 1;
+    text-align: center;
+    padding: 3px 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+  }
+  
+  .tabasdfaase.active {
+    background: #ffffff3d;
+    border-radius: 4px;
+    border: 1px dashed #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Tab Content Styles */
+  .tab-contentasdf .t-content-blog-cat-p {
+    display: none;
+    padding: 10px 0px;
+  }
+  
+  .tab-contentasdf .active {
+    display: block;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tabs {
+      flex-direction: column;
+    }
+  
+    .tabasdfaase {
+      text-align: left;
+    }
+  }
+  .n-teacher-catpost {
+      width: 100%;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 10px;
+      row-gap: 10px;
+  }
+  
+  .n-teacher-catpost-wrapper {
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+  
+  }
+  .teachers-cat-post-thumbnail {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 10px;
+      position: relative;
+      border: 1px solid #cfcfcf;
+      box-sizing: border-box;
+  }
+  
+  .teachers-cat-post-thumbnail> img {
+      aspect-ratio: 16/9;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: -9px;
+  }
+  
+  .n-teacher-catpost-wrapper> a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+  }
+  
+  span.teacher-cat-nn-post-title {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      color: #673AB7;
+  }
+  
+  
+  .teachers-cat-p-meta-data {
+      width: 100%;
+      overflow: hidden;
+  }
+  .teachers-cat-p-meta-data> ul {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      list-style-type: none;
+      font-size: 15px;
+      column-gap: 10px;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      background: #f1f1f1;
+      border: 1px solid #ddd;
+  }
+  
+  .teachers-cat-p-meta-data> ul li {
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
+  }
+  
+  .teachers-cat-p-meta-data> ul li i {
+      font-size: 16px;
+  }
+  .teachers-cat-p-meta-data> ul li i.fa-solid.fa-calendar-days {
+      color: #4CAF50;
+  }
+  .teachers-cat-p-meta-data> ul li i.fa-solid.fa-eye {
+      color: #673AB7;
+  }
+  .teachers-cat-p-meta-data> ul li i.fa-solid.fa-folder-open {
+      color: #FFC107;
+  }
+  
+  .overfollow-teacher-cat-pos-wrapper {
+      width: 100%;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      column-gap: 10px;
+      background: #ddd;
+      box-sizing: border-box;
+      padding: 10px;
+      align-items: center;
+  }
+  .t-t-t-cat-p-p-photo {
+      width: 65px;
+      overflow: hidden;
+      height: 65px;
+      border-radius: 50%;
+      position: relative;
+  }
+  
+  .t-t-t-cat-p-p-photo> img{
+    width: 100%;
+  }
+  
+  .t-p-gjyt-degig> p {
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
+  }
+  .t-p-gjyt-degig> p i {
+      color: #9E9E9E;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .t-t-t-cat-p-p-photo:after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 2px dashed #fff;
+      animation: rotate 5s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+  
+  .n-teacher-catpost {
+      grid-template-columns: 1fr;
+  
+  }
+  .tabsnnnnnnn {
+      display: grid;
+      background: linear-gradient(90deg,#3F51B5, #03A9F4, #3F51B5);
+      width: 100%;
+      row-gap: 10px;
+      justify-content: inherit;
+  }
+  .tabasdfaase {
+      text-align: center !important;
+  }
+  }
+  
+  
+  .tecahers-post-sections-main-wrapper {
+      margin-top: 30px;
+      width: 100%;
+      overflow: hidden;
+  }
   
   
   
