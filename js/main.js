@@ -77,17 +77,6 @@ nextButton.addEventListener('click', nextSlide);
 // Automatically advance to the next slide every 3 seconds
 setInterval(nextSlide, 7000);
 
-// Get a reference to the "Developed By Nishat Shagor" link
-var developerLink = document.getElementById("developer-link");
-
-// Add a click event listener to the link
-developerLink.addEventListener("click", function (event) {
-   // Prevent the default behavior of the link (i.e., following the link)
-   event.preventDefault();
-
-   // Redirect the user to the specified Facebook link
-   window.location.href = "https://www.facebook.com/nishatshagor76/";
-});
 
 
 // for Blog Tab 

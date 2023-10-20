@@ -42,4 +42,40 @@ let slideIndex1 = 0; // Unique index for the first slider
    
     // for Slider
 
+    const slickopts = {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        rows: 1,
+        responsive: [
+            { breakpoint: 992,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            { breakpoint: 776,
+                settings: {
+                    slidesToShow: 1,
+                    rows: 1
+                }
+            }]
+    };
+
+    $('.carousel').slick({
+        ...slickopts,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 2000, // Set autoplay speed in milliseconds (in this example, 2 seconds)
+        prevArrow: false, // Hide the default previous button
+        nextArrow: false // Hide the default next button
+    });
+
+    // Previous Button Click Event
+    $('.prev-btn-t-n').on('click', function() {
+        $('.carousel').slick('slickPrev');
+    });
+
+    // Next Button Click Event
+    $('.next-btn-t-n').on('click', function() {
+        $('.carousel').slick('slickNext');
+    });
+
     
