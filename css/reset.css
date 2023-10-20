@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  body, h1, h2, h3, h4, span, p, label, a, button, input, select, textarea {
+  font-family: 'Baloo Da 2', cursive;
+  }
+  body {
+    background: #eeeeee;
+  }
+  
+  .main-wrapper{
+    width: 100%;
+    overflow: hidden;
+  }
+  .header-main-wrapepr{
+    width: 100%;
+  }
+  .wrapper{
+    width: 1100px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 10px;
+  }

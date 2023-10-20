@@ -372,7 +372,7 @@
                 <a
                   href="https://gripetech.com/demo/teacher-panel/"
                   class="login-new-btn-nm"
-                  >লগইন <i class="fa-solid fa-user"></i
+                  >রেজিস্টার <i class="fa-solid fa-user"></i
                 ></a>
               </div>
             </div>
@@ -543,8 +543,12 @@
 
 <div class="wrapper">
     <div class="container">
-        <h2>Login</h2>
+        <h2>Register</h2>
         <form action="your_login_script.php" method="POST">
+            <div class="form-group">
+                <label for="username">Name:</label>
+                <input type="text" id="name" name="Name" required>
+            </div>
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -554,7 +558,7 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <button type="submit">Log In</button>
+                <button type="submit">Register</button>
             </div>
         </form>
     </div>
