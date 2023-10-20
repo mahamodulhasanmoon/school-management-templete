@@ -120,4 +120,39 @@ document.addEventListener("DOMContentLoaded", function() {
    selectedTabButton.classList.add('active');
  }
  
+
+     // Function to switch tabs
+     function openTab(tabId, buttonElement) {
+      // Hide all tab contents
+      const tabContents = document.querySelectorAll('.tab-content');
+      tabContents.forEach((tab) => {
+          tab.style.display = 'none';
+      });
+
+      // Remove the 'active-tab-btn' class from all tab buttons
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      tabButtons.forEach((btn) => {
+          btn.classList.remove('active-tab-btn');
+      });
+
+      // Show the selected tab content
+      document.getElementById(tabId).style.display = 'block';
+
+      // Add the 'active-tab-btn' class to the clicked tab button
+      buttonElement.classList.add('active-tab-btn');
+  }
+
+  // Set the initial active tab when the page loads
+  window.addEventListener('load', function () {
+      setInitialTab('tab1'); // Specify the initial tab here
+  });
+
+  // Function to set the initial active tab
+  function setInitialTab(tabId) {        // Show the initial tab content
+   document.getElementById(tabId).style.display = 'block';
+
+   // Add the 'active-tab-btn' class to the corresponding tab button
+   const tabButton = document.querySelector(`[onclick="openTab('${tabId}', this)"]`);
+   tabButton.classList.add('active-tab-btn');
+}
    

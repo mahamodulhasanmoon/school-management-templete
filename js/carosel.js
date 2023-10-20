@@ -38,3 +38,8 @@ let slideIndex1 = 0; // Unique index for the first slider
 
     // Auto-advance slides every 5 seconds for the first slider
     setInterval(nextSlide1, 7000);
+
+   
+    // for Slider
+
+    
