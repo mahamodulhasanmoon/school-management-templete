@@ -1,0 +1,287 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 550px) {
+    .footer-widgets-main-wrraper {
+        grid-template-columns: 1fr !important;
+        column-gap: 15px;
+        row-gap: 25px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .teacher-post-related-post {
+        grid-template-columns: 1fr !important;
+        row-gap: 20px;
+    }
+
+    .tacher-post-meta-data>ul {
+        display: block !important;
+    }
+
+    .ha-list-item {
+        border-right: 0px solid #9d9d9d !important;
+    }
+
+    .notice-content>a {
+        text-align: center;
+        display: block;
+    }
+
+    .last-notice-wrapper {
+        text-align: center;
+    }
+
+    .last-notice-wrapper>a {
+        margin-left: 0px;
+    }
+
+    .quote-author-box {
+        grid-template-columns: 1fr 2fr !important;
+    }
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 840px) {
+
+
+    .teachers-post-main-wrapper {
+        grid-template-columns: 1fr !important;
+        row-gap: 20px;
+    }
+
+    div#UpdatePanel2>table {
+        width: 800px !important;
+    }
+
+    table#fornt-techers-data-table {
+        width: 854px !important;
+    }
+
+
+
+
+    .web-logo>a img {
+        width: 100%;
+        height: auto;
+    }
+
+    .best-students-main-wrapper-single-nnn {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+
+    .mujib-corner-post-card>a span {
+        font-size: 16px !important;
+    }
+
+    .mujib-corner-main-post-wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .notice-single-main-wrapper {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        row-gap: 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .web-menu-section>nav ul {
+        display: none !important;
+    }
+
+    .slider-and-profile-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    .profile-wrapper {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .questions-and-anser-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    span.school-questions {
+        display: block;
+    }
+
+    .best-students-main-wrapper {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+    .footer-widgets-main-wrraper {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 25px;
+    }
+
+    .footer-widget {
+        text-align: center;
+    }
+
+    #map-container {
+        padding-bottom: 61.25%;
+    }
+
+    button#main-menu-close-btn {
+        display: none;
+    }
+
+    div#mobile-menu {
+        display: none;
+    }
+
+    .mini-notice-board {
+        width: 94%;
+    }
+
+    button#main-menu-open-btn {
+        display: block;
+    }
+
+    .slider-controls {
+        margin-top: 0px;
+    }
+
+    form.wpcf7-form {
+        width: 100%;
+    }
+
+    .logo-and-menus {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+    div#notice-btn-wrapper {
+        display: none;
+    }
+
+    div.notice-btn-wrapper {
+        display: grid;
+    }
+
+    .last-notice-and-use-link-main-wrapper {
+        grid-template-columns: 1fr !important;
+        row-gap: 15px;
+    }
+
+    .pc-extra-main-menu {
+        display: none;
+    }
+
+    form.filter-class-routin-wrapper {
+        width: 100%;
+        display: grid;
+        overflow: hidden;
+        row-gap: 15px;
+    }
+
+    form.filter-class-routin-wrapper>select#class_filter {
+        width: 100%;
+    }
+
+    form.filter-class-routin-wrapper>select#section_filter {
+        width: 100%;
+    }
+
+    form.filter-class-routin-wrapper>input[type="submit"] {
+        width: 100%;
+    }
+
+    .result-inputs-main-wrapper {
+        display: grid !important;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 0px !important;
+    }
+
+    .result-inputs-main-wrapper>select,
+    .result-inputs-main-wrapper>input {
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .result-more-details-wrapper {
+        grid-template-columns: 1fr !important;
+        row-gap: 15px;
+    }
+
+    .details-section-wrapper-nnnn>img {
+        width: 52% !important;
+    }
+
+    .tabs {
+        display: grid !important;
+        column-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .active-tab-btn {
+        width: 100%;
+    }
+
+    span.b-stu-gpa {
+        font-size: 14px;
+        display: block;
+    }
+
+    span.b-stu-session {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .main-menu.main-menu-top-wrapper-right-now {
+        display: block !important;
+    }
+
+    .wrapper.header-wrapper {
+        padding: 0px;
+    }
+
+    .out-of-wrapper-main-menu-jsgdjhf {
+        display: none;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 972px) {
+    .wrapper {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .wrapper {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
